@@ -12,7 +12,7 @@ inbox = [
 
 # keywords for favorite emails
 
-favorites = ["Favorite store", "Favorite game"]
+favorites = ["Favorite store", "Special discount"]
 # filtering logic
 filtered_inbox = []
 
@@ -27,4 +27,5 @@ for email in inbox:
 
 print("Filtered inbox:")
 for e in filtered_inbox:
+
       print("-", e["subject"])
